@@ -1,0 +1,165 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.header{
+	background: #FFF;
+}
+.header{background: #3E4A4F;}
+.container {
+	max-widht: 1100px;
+	margin: 0 auto;
+}
+.header__container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center ;
+}
+.nav__list{
+	display: flex;
+	list-style: none;
+}
+.nav__item{
+	margin-right: 63px;
+	color: #000;
+font-family: Nico Moji;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.nav__item_main{
+	color: blue;
+}
+.hero-block
+{
+background-color: #F15D5D ;
+}
+.hero-block_title
+{
+color: white;
+font-size: 60px;
+font-weight: 800;
+}
+.hero-block_btn
+{
+ width: 400x;
+ height: 80px;
+ background: #FFF505;
+ color: black;
+ font-size: 15px;
+font-weight: 200;
+}
+.container_hero-block
+{
+display: flex;
+}
+.hero-block_content
+{
+margin-top: 100px;
+margin-left: 50px;
+
+}
+.video{
+	background: red;
+}
+.container_video{
+	padding: 60px 0px 100px;
+}
+.video__title{
+	color: #fff;
+font-size: 40px;
+font-weight: 400;
+line-height: 58px;
+letter-spacing: 0px;
+text-align: center;
+margin-bottom: 80px;
+}
+.video__video{
+	width: 100%;
+	height: 537px;
+	border: 52px solid rgb(65, 65, 65);
+	border radius: 26px;
+	box-sizing: border-box;
+}
+.gallery{
+	background-color: red;
+padding: 70px 0px 0px;
+
+}
+.gallery__title{
+	color: rgb(0, 0, 0);
+font-family: Nico Moji;
+font-size: 48px;
+font-weight: 400;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 70px;
+}
+.gallery__list{
+display:flex;
+flex-wrap: wrap;
+list-style: none;
+}
+.gallery__item{
+	width: 45%;
+	height: 350px;
+	margin: 20px 20px 10px 10px;
+}
+.gallery__img{
+	width: 100%;
+	height: 100%;
+}
+.footer{
+	background-color: FFFFFF;
+	padding: 50px 27px;
+}
+.container__footer{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.footer__list{
+	display: flex;
+	padding:  ;
+	list-style: none;
+}
+
+.footer__title{
+	color: rgb(0, 0, 0);
+font-family: Nico Moji;
+font-size: 30px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 18px;
+}
+.footer__text{
+	color: rgb(0, 0, 0);
+font-family: Nico Moji;
+font-size: 16px;
+font-weight: 400;
+line-height: 164.06%;
+letter-spacing: 0%;
+text-align: left;
+}
+.footer__item:not(:last-child){ 
+	margin-right: 37px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
